@@ -1,11 +1,5 @@
 public class Payment {
-    public void processPayment(){
-
-    }
-    public void confirmTransactions(){
-
-    }
-    public void getReceipt(){
-        
-    }
+    public void processPayment();
+    public void confirmTransactions();
+    public void getReceipt();
 }

@@ -1,4 +1,4 @@
-public class Passenger extends User{
+public class Passenger extends User implements paymentService, ReceiveFeedback{
       private String destination;
     public Passenger(String name, int id) {
         super(name, id);
