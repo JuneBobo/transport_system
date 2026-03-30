@@ -1,5 +1,5 @@
-public class Payment {
-    public void processPayment();
-    public void confirmTransactions();
-    public void getReceipt();
+public interface Payment {
+    void processPayment();
+    void confirmTransactions();
+    void getReceipt();
 }

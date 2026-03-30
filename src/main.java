@@ -20,14 +20,9 @@ public class main {
         parcel.confirmParcel();
         parcel.makePayment();
 
-
-        // object creation
-        Payment payment = new Payment();
-        payment.processPayment();
-        payment.confirmTransactions();
-        payment.getReceipt();
-
-        }
-
-    
+        // Use Passenger instead (implements Payment interface)
+        passenger.processPayment();  
+        passenger.confirmTransactions();
+        passenger.getReceipt();
+    }
 }
